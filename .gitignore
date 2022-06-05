@@ -1,8 +1,11 @@
-### Example user template template
-### Example user template
+### User template
 
 # IntelliJ project files
-.idea
 *.iml
 out
 gen
+.settings
+.node_modules
+.idea
+.package-lock.json
+.gitignore
