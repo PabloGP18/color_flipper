@@ -87,6 +87,7 @@
    newButton.style.border="1px solid black"
    newButton.style.color="black"
 
+
    // *** making function and event listener to generate random color *** \\\
 
    function generateRandomColor() {
@@ -99,6 +100,19 @@
        }
    }
 
+   // *** making hover effect with eventlistener and functions when you hover the button *** \\\
+   newButton.addEventListener("mouseover", mouseOver);
+   newButton.addEventListener("mouseout", mouseOut);
+
+   function mouseOver() {
+       newButton.style.background= "black"
+       newButton.style.color = "white";
+   }
+
+   function mouseOut() {
+       newButton.style.background= "transparent"
+       newButton.style.color = "black";
+   }
    // *** making event listener for button, every time you click color will change and the hex rgb code will display *** \\\
         newButton.addEventListener('click',function (){
             generateRandomColor()
