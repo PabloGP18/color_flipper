@@ -23,9 +23,9 @@
 
     // creating element for content, adding text node to p tag, appending p in div content
     const newP = document.createElement("p");
-    const newPnode = document.createTextNode("Background color:");
-    newPnode.id="color"
-    newP.appendChild(newPnode);
+    const newPNode = document.createTextNode("Background color:");
+    newPNode.id="color"
+    newP.appendChild(newPNode);
     content.append(newP);
 
     //creating div where button will be in, giving div an id and appending it to the main div container
@@ -35,8 +35,8 @@
 
     // creating element for divBtn, adding text node to button tag, appending button in div divBtn
     const newButton = document.createElement("button");
-    const newButtonnode = document.createTextNode("Click here");
-    newButton.appendChild(newButtonnode);
+    const newButtonNode = document.createTextNode("Click here");
+    newButton.appendChild(newButtonNode);
     divBtn.append(newButton);
 
     /* /creating audio element  and appending it to body
