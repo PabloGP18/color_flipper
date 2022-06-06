@@ -56,8 +56,8 @@
    divContainer.style.borderRadius="25%"
    divContainer.style.borderBlock="none"
    //giving height and width container
-   divContainer.style.height = "500px"
-   divContainer.style.width = "500px"
+   divContainer.style.height = "350px"
+   divContainer.style.width = "350px"
    // flexbox ond parent div
    divContainer.style.display="flex"
    divContainer.style.alignItems="center"
@@ -91,7 +91,7 @@
        }
    }
 
-   // *** making eventlistener for button, every time you click color will change and the hex rgb code will display *** \\\
+   // *** making event listener for button, every time you click color will change and the hex rgb code will display *** \\\
         newButton.addEventListener('click',function (){
         generateRandomColor()
        //setInterval(generateRandomColor,100)
