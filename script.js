@@ -39,6 +39,12 @@
     newButton.appendChild(newButtonnode);
     divBtn.append(newButton);
 
+    //creating audio element  and appending it to body
+   const audio = document.createElement("audio");
+   audio.preload = "auto";
+   audio.src = "https://themushroomkingdom.net/sounds/wav/smb/smb_coin.wav";
+   document.body.appendChild(audio);
+
     // *** styling elements and page *** \\\
 
    /// ***styling body*** \\\
@@ -93,9 +99,10 @@
 
    // *** making event listener for button, every time you click color will change and the hex rgb code will display *** \\\
         newButton.addEventListener('click',function (){
-        generateRandomColor()
-       //setInterval(generateRandomColor,100)
-   })
+            generateRandomColor()
+            audio.play();
+            //setInterval(generateRandomColor,100)
+        })
 
 
 
