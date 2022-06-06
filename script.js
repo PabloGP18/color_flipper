@@ -84,6 +84,8 @@
    newButton.style.fontStyle="italic"
    newButton.style.cursor="pointer"
    newButton.style.background="transparent"
+   newButton.style.border="1px solid black"
+   newButton.style.color="black"
 
    // *** making function and event listener to generate random color *** \\\
 
